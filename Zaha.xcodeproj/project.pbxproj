@@ -14,6 +14,8 @@
 		591F02A22186E7C4000CCE12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591F02A02186E7C4000CCE12 /* LaunchScreen.storyboard */; };
 		591F02AD2186E7C4000CCE12 /* ZahaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591F02AC2186E7C4000CCE12 /* ZahaTests.swift */; };
 		591F02B82186E7C4000CCE12 /* ZahaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591F02B72186E7C4000CCE12 /* ZahaUITests.swift */; };
+		D00CFBBC21877E14002EB25C /* SplashModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00CFBBB21877E14002EB25C /* SplashModule.storyboard */; };
+		D00CFBBE21877E5C002EB25C /* LoginModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00CFBBD21877E5C002EB25C /* LoginModule.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		591F02B32186E7C4000CCE12 /* ZahaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZahaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		591F02B72186E7C4000CCE12 /* ZahaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZahaUITests.swift; sourceTree = "<group>"; };
 		591F02B92186E7C4000CCE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00CFBBB21877E14002EB25C /* SplashModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashModule.storyboard; sourceTree = "<group>"; };
+		D00CFBBD21877E5C002EB25C /* LoginModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginModule.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				591F02972186E7C0000CCE12 /* AppDelegate.swift */,
 				591F02992186E7C0000CCE12 /* ViewController.swift */,
 				591F029B2186E7C0000CCE12 /* Main.storyboard */,
+				D00CFBBB21877E14002EB25C /* SplashModule.storyboard */,
+				D00CFBBD21877E5C002EB25C /* LoginModule.storyboard */,
 				591F029E2186E7C4000CCE12 /* Assets.xcassets */,
 				591F02A02186E7C4000CCE12 /* LaunchScreen.storyboard */,
 				591F02A32186E7C4000CCE12 /* Info.plist */,
@@ -231,7 +237,9 @@
 			files = (
 				591F02A22186E7C4000CCE12 /* LaunchScreen.storyboard in Resources */,
 				591F029F2186E7C4000CCE12 /* Assets.xcassets in Resources */,
+				D00CFBBE21877E5C002EB25C /* LoginModule.storyboard in Resources */,
 				591F029D2186E7C0000CCE12 /* Main.storyboard in Resources */,
+				D00CFBBC21877E14002EB25C /* SplashModule.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
