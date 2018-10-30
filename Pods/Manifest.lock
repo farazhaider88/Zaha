@@ -1,0 +1,57 @@
+PODS:
+  - Alamofire (4.7.3)
+  - IQKeyboardManagerSwift (6.2.0)
+  - Kingfisher (4.10.0)
+  - MICountryPicker (0.2.2)
+  - MOLH (0.4)
+  - Realm (3.11.1):
+    - Realm/Headers (= 3.11.1)
+  - Realm/Headers (3.11.1)
+  - RealmSwift (3.11.1):
+    - Realm (= 3.11.1)
+  - SwiftMessages (6.0.0):
+    - SwiftMessages/App (= 6.0.0)
+  - SwiftMessages/App (6.0.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.7.3)
+  - IQKeyboardManagerSwift (= 6.2.0)
+  - Kingfisher (= 4.10.0)
+  - MICountryPicker (from `https://github.com/mustafaibrahim989/MICountryPicker.git`, branch `master`)
+  - MOLH (= 0.4)
+  - RealmSwift
+  - SwiftMessages
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MOLH
+    - Realm
+    - RealmSwift
+    - SwiftMessages
+
+EXTERNAL SOURCES:
+  MICountryPicker:
+    :branch: master
+    :git: https://github.com/mustafaibrahim989/MICountryPicker.git
+
+CHECKOUT OPTIONS:
+  MICountryPicker:
+    :commit: 43a40241da087c81c4f26715283c12ac1335ebb2
+    :git: https://github.com/mustafaibrahim989/MICountryPicker.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  MICountryPicker: 82122c5f918bc9f9e2c510793fffd188dc8d38ce
+  MOLH: e5da53263c1bd1aaefb783d49ae620702288b40d
+  Realm: 037c5919b9ceb59d6beed5d3b031096856b119b3
+  RealmSwift: c9580133e73ef40ed340401af2dbc9a5790dfea7
+  SwiftMessages: da7c981256a65b3e58022d9027a36584cf4eccf5
+
+PODFILE CHECKSUM: 38bfde4c25aadc3a375f79ece781243dab09f8f7
+
+COCOAPODS: 1.5.3

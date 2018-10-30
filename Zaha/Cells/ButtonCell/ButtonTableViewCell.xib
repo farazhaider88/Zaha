@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ButtonTableViewCell" id="KGk-i7-Jjw" customClass="ButtonTableViewCell" customModule="Test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZgH-bG-Fas" customClass="CustomButton" customModule="Test" customModuleProvider="target">
+                        <rect key="frame" x="32" y="13" width="256" height="30.5"/>
+                        <state key="normal" title="Signup" backgroundImage="loginBtn"/>
+                        <connections>
+                            <action selector="doSignUp:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="zm9-mJ-J6Y"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ZgH-bG-Fas" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="AhH-8E-psN"/>
+                    <constraint firstItem="ZgH-bG-Fas" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.7" id="HBE-77-AuM"/>
+                    <constraint firstAttribute="bottom" secondItem="ZgH-bG-Fas" secondAttribute="bottom" id="QFi-ND-RIi"/>
+                    <constraint firstItem="ZgH-bG-Fas" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.8" id="WYb-1P-UdZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnSignUp" destination="ZgH-bG-Fas" id="Dzd-6J-HzJ"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="loginBtn" width="16" height="16"/>
+    </resources>
+</document>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>clear</key>
+	<string>#000000AAAA</string>
+	<key>darkGray</key>
+	<string>#555555</string>
+	<key>lightGrey</key>
+	<string>#DDDDDD</string>
+	<key>baseBtn</key>
+	<string>#99060d</string>
+	<key>blue</key>
+	<string>#0000FF</string>
+	<key>red</key>
+	<string>#FF0000</string>
+	<key>black</key>
+	<string>#000000</string>
+	<key>white</key>
+	<string>#FFFFFF</string>
+	<key>theme</key>
+	<string>#000000</string>
+	<key>themeSelectedButton</key>
+	<string>#0000FC</string>
+	<key>themeButton</key>
+	<string>#FC0000</string>
+	<key>primary</key>
+	<string>#F0F000</string>
+	<key>secondary</key>
+	<string>#0F0FFF</string>
+	<key>baseTheme</key>
+	<string>#B81F24</string>
+	<key>grayLight</key>
+	<string>#777777</string>
+	<key>grayBG</key>
+	<string>#F8F8F8</string>
+</dict>
+</plist>

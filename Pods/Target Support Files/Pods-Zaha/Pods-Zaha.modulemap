@@ -1,0 +1,6 @@
+framework module Pods_Zaha {
+  umbrella header "Pods-Zaha-umbrella.h"
+
+  export *
+  module * { export * }
+}
