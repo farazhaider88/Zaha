@@ -17,21 +17,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_white_bg_top" translatesAutoresizingMaskIntoConstraints="NO" id="tyb-g5-eCJ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WQg-hB-fkr">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="t0H-aB-eoL" id="0mz-at-6Rx"/>
                                     <outlet property="delegate" destination="t0H-aB-eoL" id="E8j-QR-Jez"/>
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="tyb-g5-eCJ" firstAttribute="leading" secondItem="DRc-Hy-Ic7" secondAttribute="leading" id="8fi-mt-kZQ"/>
+                            <constraint firstItem="DRc-Hy-Ic7" firstAttribute="bottom" secondItem="tyb-g5-eCJ" secondAttribute="bottom" id="EyG-5m-QbB"/>
+                            <constraint firstItem="tyb-g5-eCJ" firstAttribute="top" secondItem="DRc-Hy-Ic7" secondAttribute="top" id="Fvc-MP-4ZY"/>
                             <constraint firstItem="WQg-hB-fkr" firstAttribute="leading" secondItem="DRc-Hy-Ic7" secondAttribute="leading" id="GKY-Xy-ruP"/>
                             <constraint firstItem="WQg-hB-fkr" firstAttribute="top" secondItem="DRc-Hy-Ic7" secondAttribute="top" id="T69-sw-pB4"/>
                             <constraint firstItem="DRc-Hy-Ic7" firstAttribute="trailing" secondItem="WQg-hB-fkr" secondAttribute="trailing" id="hOD-HW-GfJ"/>
                             <constraint firstItem="DRc-Hy-Ic7" firstAttribute="bottom" secondItem="WQg-hB-fkr" secondAttribute="bottom" id="v46-8H-QTR"/>
+                            <constraint firstItem="DRc-Hy-Ic7" firstAttribute="trailing" secondItem="tyb-g5-eCJ" secondAttribute="trailing" id="w5K-YB-fbm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DRc-Hy-Ic7"/>
                     </view>
@@ -280,4 +287,7 @@
             <point key="canvasLocation" x="29.600000000000001" y="96.7016491754123"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="home_white_bg_top" width="375" height="594"/>
+    </resources>
 </document>
