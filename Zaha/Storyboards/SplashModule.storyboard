@@ -9,25 +9,24 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Splash View Controller-->
         <scene sceneID="Wrq-o4-6R5">
             <objects>
-                <viewController id="bAC-y0-rhB" sceneMemberID="viewController">
+                <viewController id="bAC-y0-rhB" customClass="SplashViewController" customModule="Zaha" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wNb-D4-9If">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SplashViewController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeY-vh-flW">
-                                <rect key="frame" x="105.5" y="323" width="164" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="KmH-6a-fB4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="zeY-vh-flW" firstAttribute="centerX" secondItem="wNb-D4-9If" secondAttribute="centerX" id="gg7-Sa-nYa"/>
-                            <constraint firstItem="zeY-vh-flW" firstAttribute="centerY" secondItem="wNb-D4-9If" secondAttribute="centerY" id="xVl-35-M7b"/>
+                            <constraint firstItem="Ult-hY-3iJ" firstAttribute="bottom" secondItem="KmH-6a-fB4" secondAttribute="bottom" id="M9A-fu-Sef"/>
+                            <constraint firstItem="KmH-6a-fB4" firstAttribute="top" secondItem="wNb-D4-9If" secondAttribute="top" id="WyN-nY-Bap"/>
+                            <constraint firstItem="KmH-6a-fB4" firstAttribute="leading" secondItem="Ult-hY-3iJ" secondAttribute="leading" id="nrw-nT-qcF"/>
+                            <constraint firstItem="Ult-hY-3iJ" firstAttribute="trailing" secondItem="KmH-6a-fB4" secondAttribute="trailing" id="z6q-6H-1sp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ult-hY-3iJ"/>
                     </view>
@@ -37,4 +36,7 @@
             <point key="canvasLocation" x="100" y="27"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Splash" width="375" height="667"/>
+    </resources>
 </document>

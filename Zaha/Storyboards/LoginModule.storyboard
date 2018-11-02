@@ -75,10 +75,10 @@
             </objects>
             <point key="canvasLocation" x="1088.8" y="-174.06296851574214"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="FlG-Uz-gbt">
             <objects>
-                <viewController id="HSu-On-QXF" sceneMemberID="viewController">
+                <viewController id="HSu-On-QXF" customClass="LoginViewController" customModule="Zaha" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f5I-Yt-dpl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -433,6 +433,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="MIh-X8-cAf"/>
+        <segue reference="c94-9W-nVX"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -156,7 +156,7 @@
 		5DA40B05664CAFD98410EF02 /* Pods_ZahaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AD12A0D01A0328573D4CF8 /* Pods_ZahaTests.framework */; };
 		9F092CACFFF227AD1215B545 /* Pods_ZahaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652F7617021952CADBA00059 /* Pods_ZahaUITests.framework */; };
 		B2FF3CF525E5BF6CFDACBD2B /* Pods_Zaha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61582C593E832186BC8A0A47 /* Pods_Zaha.framework */; };
-		D00CFBC621879DA0002EB25C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00CFBC521879DA0002EB25C /* HomeVC.swift */; };
+		D084539C218C7DD9001E57B0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D084539B218C7DD9001E57B0 /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -336,7 +336,7 @@
 		652F7617021952CADBA00059 /* Pods_ZahaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZahaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AD12A0D01A0328573D4CF8 /* Pods_ZahaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZahaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43B4B046411E10F4E59B82E /* Pods-ZahaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZahaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZahaTests/Pods-ZahaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D00CFBC521879DA0002EB25C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D084539B218C7DD9001E57B0 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		D707241ED607410FF7521B0B /* Pods-ZahaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZahaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZahaUITests/Pods-ZahaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D88A20108DE1ED7AFED2D393 /* Pods-Zaha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zaha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zaha/Pods-Zaha.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -623,6 +623,7 @@
 			children = (
 				1A665F2F21884A5A00B7CBA2 /* Registeration */,
 				1A665F2421884A4E00B7CBA2 /* ForgetPassword */,
+				D084539A218C7DB7001E57B0 /* Home */,
 				1A665F1F21884A3D00B7CBA2 /* SettingsSection  */,
 				1A665F1921884A1600B7CBA2 /* ViewController.swift */,
 				1A665F1A21884A1600B7CBA2 /* BaseViewController.swift */,
@@ -837,7 +838,6 @@
 				1A665E532188426500B7CBA2 /* BaseFrameWork */,
 				591F02972186E7C0000CCE12 /* AppDelegate.swift */,
 				591F029B2186E7C0000CCE12 /* Main.storyboard */,
-				D00CFBC521879DA0002EB25C /* HomeVC.swift */,
 				591F029E2186E7C4000CCE12 /* Assets.xcassets */,
 				591F02A02186E7C4000CCE12 /* LaunchScreen.storyboard */,
 				591F02A32186E7C4000CCE12 /* Info.plist */,
@@ -871,6 +871,14 @@
 				652F7617021952CADBA00059 /* Pods_ZahaUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D084539A218C7DB7001E57B0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D084539B218C7DD9001E57B0 /* HomeVC.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1192,7 +1200,6 @@
 				1A665F9F21885F0800B7CBA2 /* AlertMessages.swift in Sources */,
 				1A665EC32188426600B7CBA2 /* UIView+Extensions.swift in Sources */,
 				1A665F9621884F2B00B7CBA2 /* ImageTableViewCell.swift in Sources */,
-				D00CFBC621879DA0002EB25C /* HomeVC.swift in Sources */,
 				1A665F06218847F200B7CBA2 /* SVUser.swift in Sources */,
 				1A665ED82188426600B7CBA2 /* BaseUIViewController.swift in Sources */,
 				1A665EBE2188426600B7CBA2 /* AppStoryboardAndNavigation.swift in Sources */,
@@ -1209,6 +1216,7 @@
 				1A665F8B21884EC700B7CBA2 /* ParallaxHeaderView.swift in Sources */,
 				1A665EE52188426600B7CBA2 /* BaseUIImageView.swift in Sources */,
 				1A665F132188482900B7CBA2 /* Result.swift in Sources */,
+				D084539C218C7DD9001E57B0 /* HomeVC.swift in Sources */,
 				1A665F1E21884A1600B7CBA2 /* SplashViewController.swift in Sources */,
 				1A665ECE2188426600B7CBA2 /* BaseUIButton.swift in Sources */,
 				1A665F5821884BD900B7CBA2 /* AcceptCheckboxTableViewCell.swift in Sources */,
@@ -1439,7 +1447,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.Zaha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1457,7 +1465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.Zaha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
