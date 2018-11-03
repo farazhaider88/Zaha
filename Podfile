@@ -12,6 +12,7 @@ target 'Zaha' do
    pod 'MICountryPicker', :git => 'https://github.com/mustafaibrahim989/MICountryPicker.git', :branch => 'master'
     pod 'RealmSwift'
     pod 'SwiftMessages'
+    pod 'GoogleSignIn'
   # Pods for Zaha
   # Pods for Zaha
 

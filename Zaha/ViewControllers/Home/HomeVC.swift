@@ -7,17 +7,23 @@
 //
 
 import UIKit
+import GoogleSignIn
 
-class HomeVC: UIViewController {
+class HomeVC: UIViewController,GIDSignInUIDelegate, GIDSignInDelegate {
 
     @IBOutlet weak var homeTblView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         homeTblView.register(UINib(nibName: "HomeTableViewCell", bundle: nil), forCellReuseIdentifier: "HomeCell")
         // Do any additional setup after loading the view.
+        
     }
     
 
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
@@ -28,6 +34,43 @@ class HomeVC: UIViewController {
     }
     */
 
+    
+    @IBAction func googleSignInButtonClicked(_ sender: Any) {
+        GIDSignIn.sharedInstance().delegate=self
+        GIDSignIn.sharedInstance().uiDelegate=self
+        GIDSignIn.sharedInstance().signIn()
+    }
+    
+    
+    func sign(inWillDispatch signIn: GIDSignIn!, error: Error!) {
+    }
+    
+    func sign(_ signIn: GIDSignIn!,
+              present viewController: UIViewController!) {
+        self.present(viewController, animated: true, completion: nil)
+    }
+    
+    func sign(_ signIn: GIDSignIn!,
+              dismiss viewController: UIViewController!) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    public func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        
+        if error != nil{
+            print(error ?? "google error")
+            return
+        }
+        
+            // Perform any operations on signed in user here.
+            let userId = user.userID                  // For client-side use only!
+            let idToken = user.authentication.idToken // Safe to send to the server
+            let fullName = user.profile.name
+            let givenName = user.profile.givenName
+            let familyName = user.profile.familyName
+            let email = user.profile.email
+            // ...
+    }
 }
 
 extension HomeVC : UITableViewDelegate,UITableViewDataSource {

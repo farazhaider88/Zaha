@@ -42,7 +42,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DRc-Hy-Ic7"/>
                     </view>
-                    <navigationItem key="navigationItem" title="HOME" id="CPH-uk-I0r"/>
+                    <navigationItem key="navigationItem" title="HOME" id="CPH-uk-I0r">
+                        <barButtonItem key="rightBarButtonItem" title="GoogleSignIN" id="zLu-2F-tGD">
+                            <connections>
+                                <action selector="googleSignInButtonClicked:" destination="t0H-aB-eoL" id="uOl-NX-rFR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="homeTblView" destination="WQg-hB-fkr" id="pV4-67-0lv"/>
                         <segue destination="AoX-jC-djM" kind="show" id="yvn-Og-vQr"/>

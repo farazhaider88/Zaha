@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleSignIn
 
 let router = Router()
 @UIApplicationMain
@@ -14,9 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    //this function is added only
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        return GIDSignIn.sharedInstance().handle(url as URL!,
+                                                 sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String, annotation: options[UIApplication.OpenURLOptionsKey.annotation])
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         //test1
+            GIDSignIn.sharedInstance().clientID = "851092133496-lau61vgfr9e60cnk9m7gnu4but9m8o7n.apps.googleusercontent.com"
+        
         // Override point for customization after application launch.
         return true
     }
