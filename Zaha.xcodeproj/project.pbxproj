@@ -157,6 +157,14 @@
 		9F092CACFFF227AD1215B545 /* Pods_ZahaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652F7617021952CADBA00059 /* Pods_ZahaUITests.framework */; };
 		B2FF3CF525E5BF6CFDACBD2B /* Pods_Zaha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61582C593E832186BC8A0A47 /* Pods_Zaha.framework */; };
 		D084539C218C7DD9001E57B0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D084539B218C7DD9001E57B0 /* HomeVC.swift */; };
+		D084539E218E12B7001E57B0 /* StoriesModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D084539D218E12B7001E57B0 /* StoriesModule.storyboard */; };
+		D08453A0218E12C9001E57B0 /* UpcommingExperienceModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D084539F218E12C9001E57B0 /* UpcommingExperienceModule.storyboard */; };
+		D08453A2218E12D7001E57B0 /* NearMeModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08453A1218E12D7001E57B0 /* NearMeModule.storyboard */; };
+		D08453A4218E12E2001E57B0 /* PastExperienceModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08453A3218E12E2001E57B0 /* PastExperienceModule.storyboard */; };
+		D08453A6218E12F4001E57B0 /* MyExperienceModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08453A5218E12F4001E57B0 /* MyExperienceModule.storyboard */; };
+		D08453A8218E1301001E57B0 /* InboxModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08453A7218E1301001E57B0 /* InboxModule.storyboard */; };
+		D08453AA218E130F001E57B0 /* SettingModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08453A9218E130F001E57B0 /* SettingModule.storyboard */; };
+		D08453AC218E1318001E57B0 /* AboutModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08453AB218E1318001E57B0 /* AboutModule.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -337,6 +345,14 @@
 		A5AD12A0D01A0328573D4CF8 /* Pods_ZahaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZahaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43B4B046411E10F4E59B82E /* Pods-ZahaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZahaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZahaTests/Pods-ZahaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D084539B218C7DD9001E57B0 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D084539D218E12B7001E57B0 /* StoriesModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoriesModule.storyboard; sourceTree = "<group>"; };
+		D084539F218E12C9001E57B0 /* UpcommingExperienceModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UpcommingExperienceModule.storyboard; sourceTree = "<group>"; };
+		D08453A1218E12D7001E57B0 /* NearMeModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NearMeModule.storyboard; sourceTree = "<group>"; };
+		D08453A3218E12E2001E57B0 /* PastExperienceModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PastExperienceModule.storyboard; sourceTree = "<group>"; };
+		D08453A5218E12F4001E57B0 /* MyExperienceModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyExperienceModule.storyboard; sourceTree = "<group>"; };
+		D08453A7218E1301001E57B0 /* InboxModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InboxModule.storyboard; sourceTree = "<group>"; };
+		D08453A9218E130F001E57B0 /* SettingModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingModule.storyboard; sourceTree = "<group>"; };
+		D08453AB218E1318001E57B0 /* AboutModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AboutModule.storyboard; sourceTree = "<group>"; };
 		D707241ED607410FF7521B0B /* Pods-ZahaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZahaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZahaUITests/Pods-ZahaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D88A20108DE1ED7AFED2D393 /* Pods-Zaha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zaha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zaha/Pods-Zaha.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -777,6 +793,14 @@
 				1A665FA2218861D500B7CBA2 /* HomeModule.storyboard */,
 				1A665FA1218861D500B7CBA2 /* LoginModule.storyboard */,
 				1A665FA3218861D500B7CBA2 /* SplashModule.storyboard */,
+				D084539D218E12B7001E57B0 /* StoriesModule.storyboard */,
+				D084539F218E12C9001E57B0 /* UpcommingExperienceModule.storyboard */,
+				D08453A1218E12D7001E57B0 /* NearMeModule.storyboard */,
+				D08453A3218E12E2001E57B0 /* PastExperienceModule.storyboard */,
+				D08453A5218E12F4001E57B0 /* MyExperienceModule.storyboard */,
+				D08453A7218E1301001E57B0 /* InboxModule.storyboard */,
+				D08453A9218E130F001E57B0 /* SettingModule.storyboard */,
+				D08453AB218E1318001E57B0 /* AboutModule.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -989,27 +1013,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D08453A6218E12F4001E57B0 /* MyExperienceModule.storyboard in Resources */,
 				1A665F9721884F2B00B7CBA2 /* ImageTableViewCell.xib in Resources */,
 				1A665FAB218865F100B7CBA2 /* HomeTableViewCell.xib in Resources */,
 				1A665F5C21884BD900B7CBA2 /* PhoneTableViewCell.xib in Resources */,
 				1A665F5721884BD900B7CBA2 /* AcceptCheckboxTableViewCell.xib in Resources */,
+				D084539E218E12B7001E57B0 /* StoriesModule.storyboard in Resources */,
 				591F02A22186E7C4000CCE12 /* LaunchScreen.storyboard in Resources */,
 				1A665F5D21884BD900B7CBA2 /* ButtonTableViewCell.xib in Resources */,
 				1A665EAD2188426600B7CBA2 /* FontManager.plist in Resources */,
 				1A665F8A21884EC700B7CBA2 /* banner_logo@2x.png in Resources */,
 				1A665F9021884EC700B7CBA2 /* bg-home@2x.png in Resources */,
 				1A665FA6218861D500B7CBA2 /* SplashModule.storyboard in Resources */,
+				D08453AC218E1318001E57B0 /* AboutModule.storyboard in Resources */,
 				1A665FA4218861D500B7CBA2 /* LoginModule.storyboard in Resources */,
+				D08453A0218E12C9001E57B0 /* UpcommingExperienceModule.storyboard in Resources */,
 				1A665F8C21884EC700B7CBA2 /* HeaderCollectionReusableView.xib in Resources */,
 				1A665F8F21884EC700B7CBA2 /* bg-home@3x.png in Resources */,
+				D08453A8218E1301001E57B0 /* InboxModule.storyboard in Resources */,
 				1A665F8821884EC700B7CBA2 /* banner_logo@3x.png in Resources */,
 				591F029F2186E7C4000CCE12 /* Assets.xcassets in Resources */,
 				1A665F8D21884EC700B7CBA2 /* HomeTopView.xib in Resources */,
 				1A665FA5218861D500B7CBA2 /* HomeModule.storyboard in Resources */,
 				1A665F5921884BD900B7CBA2 /* TextFieldTableViewCell.xib in Resources */,
+				D08453A2218E12D7001E57B0 /* NearMeModule.storyboard in Resources */,
 				591F029D2186E7C0000CCE12 /* Main.storyboard in Resources */,
+				D08453A4218E12E2001E57B0 /* PastExperienceModule.storyboard in Resources */,
 				1A665EAC2188426600B7CBA2 /* ColorManager.plist in Resources */,
 				1A665F5521884BD900B7CBA2 /* SettingsTableViewCell.xib in Resources */,
+				D08453AA218E130F001E57B0 /* SettingModule.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
