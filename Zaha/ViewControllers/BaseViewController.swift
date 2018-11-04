@@ -34,19 +34,19 @@ class BaseViewController: UIViewController {
     func setupAppDefaultNavigationBar()  {
         
         //Setting navigation bar background color, its font and title color
-        let barBgColor = UIColor.white
-        let titleFont = UIFont.init(name: "HelveticaNeue", size: DesignUtility.getFontSize(fSize: 20))
+        let barBgColor = UIColor.init(hexString: "#707070")
+        let titleFont = UIFont.init(name: "FuturaStd-Medium", size: DesignUtility.getFontSize(fSize: 18))
         
-        self.navigationController?.navigationBar.setCustomNavigationBarWith(navigationBarTintColor: barBgColor, navigationBarTitleFont: titleFont!, navigationBarForegroundColor: UIColor.darkGray)
+        self.navigationController?.navigationBar.setCustomNavigationBarWith(navigationBarTintColor: barBgColor, navigationBarTitleFont: titleFont!, navigationBarForegroundColor: UIColor.white)
         
-        self.navigationController?.view.backgroundColor = UIColor.white
+//        self.navigationController?.view.backgroundColor = UIColor.white
         self.navigationItem.hidesBackButton = true
         
-        self.navigationController?.navigationBar.layer.shadowColor = UIColor.lightGray.cgColor
-        self.navigationController?.navigationBar.layer.shadowOffset = CGSize(width: 0.0, height: 3.0)
-        self.navigationController?.navigationBar.layer.shadowRadius = 3.0
-        self.navigationController?.navigationBar.layer.shadowOpacity = 0.5
-        self.navigationController?.navigationBar.layer.masksToBounds = false
+//        self.navigationController?.navigationBar.layer.shadowColor = UIColor.lightGray.cgColor
+//        self.navigationController?.navigationBar.layer.shadowOffset = CGSize(width: 0.0, height: 3.0)
+//        self.navigationController?.navigationBar.layer.shadowRadius = 3.0
+//        self.navigationController?.navigationBar.layer.shadowOpacity = 0.5
+//        self.navigationController?.navigationBar.layer.masksToBounds = false
         
         //If navigation controller have more than 1 view controller then add backbutton
         if self.navigationController != nil{
@@ -63,7 +63,7 @@ class BaseViewController: UIViewController {
             //Adding bar button items with given image and its position inside navigation bar and its selector
             
             //   (UIImage(named: "backBtn")?.maskWithColor(color: UIColor.white)?.withRenderingMode(.alwaysOriginal))!
-            let img = UIImage.init(named: "backBtn")?.flipIfNeeded()
+            let img = UIImage.init(named: "home_backArrow")?.flipIfNeeded()
           
             
             self.addBarButtonItemWithImage(img ?? UIImage(), CustomNavBarEnum.CustomBarButtonItemPosition.BarButtonItemPositionLeft, self, #selector(self.goBack))

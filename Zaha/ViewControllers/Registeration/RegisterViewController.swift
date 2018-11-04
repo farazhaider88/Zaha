@@ -4,7 +4,7 @@ import UIKit
 import MICountryPicker
 import MOLH
 
-class RegisterViewController: UIViewController, StoryBoardHandler {
+class RegisterViewController: BaseViewController, StoryBoardHandler {
     static var myStoryBoard: (forIphone: String, forIpad: String?) =  (Storyboards.registeration.rawValue, nil)
     
     @IBOutlet weak var btnGoBack: UIButton!
@@ -22,29 +22,37 @@ class RegisterViewController: UIViewController, StoryBoardHandler {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setNavBar()
         // Do any additional setup after loading the view.
     
-        if let path = Bundle.main.path(forResource: "FormData", ofType: "plist") {
-            dataArray = NSMutableArray(contentsOfFile: path);
-            
-            for data:NSMutableDictionary in (dataArray as? [NSMutableDictionary])! {
-                if let cellId:String = data["cellIdentifier"] as? String {
-                    tblSignup.register(UINib.init(nibName: cellId, bundle: nil), forCellReuseIdentifier: cellId)
-                }
-            }
-        }
-        tblSignup.delegate = self
-        tblSignup.dataSource = self
-        tblSignup.separatorColor = .clear
+//        if let path = Bundle.main.path(forResource: "FormData", ofType: "plist") {
+//            dataArray = NSMutableArray(contentsOfFile: path);
+//
+//            for data:NSMutableDictionary in (dataArray as? [NSMutableDictionary])! {
+//                if let cellId:String = data["cellIdentifier"] as? String {
+//                    tblSignup.register(UINib.init(nibName: cellId, bundle: nil), forCellReuseIdentifier: cellId)
+//                }
+//            }
+//        }
+//        tblSignup.delegate = self
+//        tblSignup.dataSource = self
+//        tblSignup.separatorColor = .clear
         
         
         
         
     }
+    func setNavBar()
+    {
+        self.title = "SIGNUP"
+        self.navigationController?.isNavigationBarHidden = false
+        
+        //        let img = UIImage.init(named: "home_backArrow")?.flipIfNeeded()
+        //self.addBarButtonItemWithImage(img!,CustomNavBarEnum.CustomBarButtonItemPosition.BarButtonItemPositionLeft, self, #selector(actionMenuButton))
+    }
     
     override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.isNavigationBarHidden = true
+        //self.navigationController?.isNavigationBarHidden = true
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

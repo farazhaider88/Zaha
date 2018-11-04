@@ -1,11 +1,3 @@
-//
-//  Router.swift
-//  ___PROJECTNAME___
-//
-//  Created ___FULLUSERNAME___ on ___DATE___.
-//  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
-//
-
 
 import UIKit
 
@@ -20,6 +12,17 @@ class Router  {
         }
         
         
+    }
+    
+    
+    
+    func goToHomeAsRoot(from vc : viewController)
+    {
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "SideMenu", bundle: nil)
+        
+        let viewController = mainStoryboard.instantiateViewController(withIdentifier: "SideMenuController") as! SideMenuController
+        UIApplication.shared.keyWindow?.rootViewController = viewController
+//        vc.navigationController?.setViewControllers([SideMenuController.loadVC()], animated: true)
     }
     
     func goToLoginScreen(from vc : viewController) {

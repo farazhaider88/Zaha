@@ -25,6 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //test1
             GIDSignIn.sharedInstance().clientID = "851092133496-lau61vgfr9e60cnk9m7gnu4but9m8o7n.apps.googleusercontent.com"
         
+        
+        
         // Override point for customization after application launch.
         return true
     }

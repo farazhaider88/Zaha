@@ -96,9 +96,9 @@ extension FontDesignable where Self: UIView {
 fileprivate extension FontDesignable {
     func getFont()->UIFont? {
         
-        let fName = (fontNameTheme != nil && !(fontNameTheme?.isEmpty)!) ? FontManager.constant(forKey: fontNameTheme!) : "Helvetica";
+        let fName = (fontNameTheme != nil && !(fontNameTheme?.isEmpty)!) ? FontManager.constant(forKey: fontNameTheme!) : "Arial";
         let fontSize = (fontSizeTheme != nil && !(fontSizeTheme?.isEmpty)!) ? FontManager.style(forKey: fontSizeTheme!) : 25;
-        
+        print(fName)
         let resizedFontSize = DesignUtility.getFontSize(fSize: CGFloat(fontSize))
         
         let fnt = UIFont.init(name: fName!, size: resizedFontSize);

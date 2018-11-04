@@ -2,7 +2,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController, StoryBoardHandler {
+class LoginViewController: BaseViewController, StoryBoardHandler {
     static var myStoryBoard: (forIphone: String, forIpad: String?) = (Storyboards.registeration.rawValue , nil)
     
     @IBOutlet weak var btnForgotPwd: BaseUIButton!
@@ -18,20 +18,38 @@ class LoginViewController: UIViewController, StoryBoardHandler {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      // Do any additional setup after loading the view.
-           txtEmail.delegate = self
-           txtPwd.delegate = self
+        setNavBar()
         
-       // txtEmail.text = "user@user.com" //"w@w.com"
-       // txtPwd.text = "123123" //"123456"
-        self.navigationController?.isNavigationBarHidden = true
-        txtEmail.keyboardType = .emailAddress
-        setupForAnimation()
-        setTextAsPerLanguage()
-      perform(#selector(animate), with: nil, afterDelay: 0.2)
-          Navigation.currentNavigation = self.navigationController
+      // Do any additional setup after loading the view.
+//           txtEmail.delegate = self
+//           txtPwd.delegate = self
+//        
+//       // txtEmail.text = "user@user.com" //"w@w.com"
+//       // txtPwd.text = "123123" //"123456"
+//        self.navigationController?.isNavigationBarHidden = true
+//        txtEmail.keyboardType = .emailAddress
+//        setupForAnimation()
+//        setTextAsPerLanguage()
+//      perform(#selector(animate), with: nil, afterDelay: 0.2)
+//          Navigation.currentNavigation = self.navigationController
+    }
+    override func viewWillAppear(_ animated: Bool)
+    {
+        
     }
     
+    func setNavBar()
+    {
+        self.title = "LOGIN"
+        self.navigationController?.isNavigationBarHidden = false
+       
+//        let img = UIImage.init(named: "home_backArrow")?.flipIfNeeded()
+    //self.addBarButtonItemWithImage(img!,CustomNavBarEnum.CustomBarButtonItemPosition.BarButtonItemPositionLeft, self, #selector(actionMenuButton))
+    }
+    @objc func actionMenuButton()
+    {
+        self.navigationController?.popViewController(animated: true)
+    }
     override func viewDidAppear(_ animated: Bool) {
       //  animate()
     }
@@ -105,6 +123,9 @@ class LoginViewController: UIViewController, StoryBoardHandler {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
    }
+    @IBAction func gotoHomeController(_ sender: UIButton) {
+        router.goToHomeAsRoot(from: self)
+    }
     
 
     @IBAction func forgotPasswordTapped(_ sender: Any) {

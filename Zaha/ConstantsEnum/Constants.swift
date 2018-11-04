@@ -17,7 +17,16 @@ enum Constants {
     static let selectedColor = UIColor(red: 198/255, green: 0/255, blue: 37/255, alpha: 1)
 }
 
-
+struct Color
+{
+    static let appDarkPink = UIColor(red:0.863, green:0.714, blue:0.745, alpha:1.0)
+    static let appLightPink = UIColor(red:0.926, green:0.883, blue:0.890, alpha:1.0)
+    static let appDarkGray = UIColor(red:0.506, green:0.506, blue:0.506, alpha:1.0)
+    static let appLightGray = UIColor(red:0.573, green:0.573, blue:0.573, alpha:1.0)
+    static let appBlueText = UIColor(red:0.482, green:0.600, blue:0.776, alpha:1.0)
+    static let appSeperator = UIColor(red:0.933, green:0.933, blue:0.933, alpha:1.0)
+    static let appSeperatorColor = UIColor(red:0.722, green:0.722, blue:0.722, alpha:1.0)
+}
 
 enum FP {
     static var emailUser = ""

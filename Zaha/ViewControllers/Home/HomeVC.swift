@@ -9,20 +9,34 @@
 import UIKit
 import GoogleSignIn
 
-class HomeVC: UIViewController,GIDSignInUIDelegate, GIDSignInDelegate {
+class HomeVC: BaseViewController,GIDSignInUIDelegate, GIDSignInDelegate, StoryBoardHandler {
 
+    static var myStoryBoard: (forIphone: String, forIpad: String?) = (Storyboards.home.rawValue , nil)
+    
     @IBOutlet weak var homeTblView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        setNavBar()
         homeTblView.register(UINib(nibName: "HomeTableViewCell", bundle: nil), forCellReuseIdentifier: "HomeCell")
         // Do any additional setup after loading the view.
         
     }
-    
+    func setNavBar()
+    {
+        self.title = "HOME"
+        self.navigationController?.isNavigationBarHidden = false
+        
+        let menuImg = UIImage.init(named: "home_menuIcon")?.flipIfNeeded()
+        
+        self.addBarButtonItemWithImage(menuImg!,CustomNavBarEnum.CustomBarButtonItemPosition.BarButtonItemPositionLeft, self, #selector(actionMenuButton))
+    }
 
+    @objc func actionMenuButton()
+    {
+        sideMenuController?.showLeftViewAnimated()
+    }
     
-    
-    
+    //home_menuIcon
     
     /*
     // MARK: - Navigation

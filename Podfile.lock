@@ -21,7 +21,9 @@ PODS:
   - GTMSessionFetcher/Full (1.2.0):
     - GTMSessionFetcher/Core (= 1.2.0)
   - IQKeyboardManagerSwift (6.2.0)
+  - ISPageControl (0.1.0)
   - Kingfisher (4.10.0)
+  - LGSideMenuController (2.1.1)
   - MICountryPicker (0.2.2)
   - MOLH (0.4)
   - Realm (3.11.1):
@@ -37,7 +39,9 @@ DEPENDENCIES:
   - Alamofire (= 4.7.3)
   - GoogleSignIn
   - IQKeyboardManagerSwift (= 6.2.0)
+  - ISPageControl (~> 0.1.0)
   - Kingfisher (= 4.10.0)
+  - LGSideMenuController (= 2.1.1)
   - MICountryPicker (from `https://github.com/mustafaibrahim989/MICountryPicker.git`, branch `master`)
   - MOLH (= 0.4)
   - RealmSwift
@@ -51,7 +55,9 @@ SPEC REPOS:
     - GTMOAuth2
     - GTMSessionFetcher
     - IQKeyboardManagerSwift
+    - ISPageControl
     - Kingfisher
+    - LGSideMenuController
     - MOLH
     - Realm
     - RealmSwift
@@ -74,13 +80,15 @@ SPEC CHECKSUMS:
   GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
   GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
   IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  ISPageControl: cadeb38e9ecdf05540c69ea1132612521b3caa2a
   Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  LGSideMenuController: ae40c80983ab8b8801c7cef0a6804d43aaa72d45
   MICountryPicker: 82122c5f918bc9f9e2c510793fffd188dc8d38ce
   MOLH: e5da53263c1bd1aaefb783d49ae620702288b40d
   Realm: 037c5919b9ceb59d6beed5d3b031096856b119b3
   RealmSwift: c9580133e73ef40ed340401af2dbc9a5790dfea7
   SwiftMessages: da7c981256a65b3e58022d9027a36584cf4eccf5
 
-PODFILE CHECKSUM: 18ea5a3e5eaa711165fe6da1b7a277d5da2a57bb
+PODFILE CHECKSUM: 048a7d5bfd6553a166e168e0551d2bd343629efc
 
 COCOAPODS: 1.5.3

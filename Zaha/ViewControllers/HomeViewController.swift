@@ -12,21 +12,30 @@ class HomeViewController: BaseViewController , StoryBoardHandler{
     
     var headerView : ParallaxHeaderView!
     
+    @objc func actionMenuButton()
+    {
+        sideMenuController?.showLeftViewAnimated()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+            self.navigationController?.isNavigationBarHidden = false
+            let img = UIImage.init(named: "signup_emailIcon")?.flipIfNeeded()
+        self.addBarButtonItemWithImage(img!,CustomNavBarEnum.CustomBarButtonItemPosition.BarButtonItemPositionLeft, self, #selector(actionMenuButton))
+        
         // Do any additional setup after loading the view.
         
-        colVIewHome.delegate = self
-        colVIewHome.dataSource = self
-   
-        colVIewHome.register(UINib.init(nibName: "HeaderCollectionReusableView", bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "HeaderCollectionReusableView")
+//        colVIewHome.delegate = self
+//        colVIewHome.dataSource = self
+//   
+//        colVIewHome.register(UINib.init(nibName: "HeaderCollectionReusableView", bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "HeaderCollectionReusableView")
     
      
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.isNavigationBarHidden =  true
+//        self.navigationController?.isNavigationBarHidden =  true
     }
 
     override func didReceiveMemoryWarning() {

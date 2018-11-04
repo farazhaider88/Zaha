@@ -13,6 +13,8 @@ target 'Zaha' do
     pod 'RealmSwift'
     pod 'SwiftMessages'
     pod 'GoogleSignIn'
+    pod 'LGSideMenuController','2.1.1'
+    pod 'ISPageControl', '~> 0.1.0'
   # Pods for Zaha
   # Pods for Zaha
 
