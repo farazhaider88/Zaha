@@ -14,6 +14,7 @@ public enum Storyboards : String {
     case home = "HomeModule"
     case setting = "Settings"
     case sideMenu = "SideMenu"
+    case upcomingExperience = "UpcommingExperienceModule"
    
     
 }

@@ -193,6 +193,7 @@
 		591F02A22186E7C4000CCE12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591F02A02186E7C4000CCE12 /* LaunchScreen.storyboard */; };
 		591F02AD2186E7C4000CCE12 /* ZahaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591F02AC2186E7C4000CCE12 /* ZahaTests.swift */; };
 		591F02B82186E7C4000CCE12 /* ZahaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591F02B72186E7C4000CCE12 /* ZahaUITests.swift */; };
+		597429152191C06100F90417 /* UpcommingExperienceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597429142191C06100F90417 /* UpcommingExperienceDetailViewController.swift */; };
 		5DA40B05664CAFD98410EF02 /* Pods_ZahaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AD12A0D01A0328573D4CF8 /* Pods_ZahaTests.framework */; };
 		9F092CACFFF227AD1215B545 /* Pods_ZahaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652F7617021952CADBA00059 /* Pods_ZahaUITests.framework */; };
 		B2FF3CF525E5BF6CFDACBD2B /* Pods_Zaha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61582C593E832186BC8A0A47 /* Pods_Zaha.framework */; };
@@ -420,6 +421,7 @@
 		591F02B32186E7C4000CCE12 /* ZahaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZahaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		591F02B72186E7C4000CCE12 /* ZahaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZahaUITests.swift; sourceTree = "<group>"; };
 		591F02B92186E7C4000CCE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		597429142191C06100F90417 /* UpcommingExperienceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcommingExperienceDetailViewController.swift; sourceTree = "<group>"; };
 		61582C593E832186BC8A0A47 /* Pods_Zaha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zaha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		652F7617021952CADBA00059 /* Pods_ZahaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZahaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AD12A0D01A0328573D4CF8 /* Pods_ZahaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZahaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -722,6 +724,7 @@
 				1A665F2421884A4E00B7CBA2 /* ForgetPassword */,
 				D084539A218C7DB7001E57B0 /* Home */,
 				1A665F1F21884A3D00B7CBA2 /* SettingsSection  */,
+				597429132191BFC900F90417 /* UpcommingExperience */,
 				1A665F1921884A1600B7CBA2 /* ViewController.swift */,
 				1A665F1A21884A1600B7CBA2 /* BaseViewController.swift */,
 				1A665F1B21884A1600B7CBA2 /* SplashViewController.swift */,
@@ -1061,6 +1064,14 @@
 				591F02B92186E7C4000CCE12 /* Info.plist */,
 			);
 			path = ZahaUITests;
+			sourceTree = "<group>";
+		};
+		597429132191BFC900F90417 /* UpcommingExperience */ = {
+			isa = PBXGroup;
+			children = (
+				597429142191C06100F90417 /* UpcommingExperienceDetailViewController.swift */,
+			);
+			path = UpcommingExperience;
 			sourceTree = "<group>";
 		};
 		AD32DF690CAA5CCD2680F56E /* Frameworks */ = {
@@ -1450,6 +1461,7 @@
 				1A665F2221884A3D00B7CBA2 /* SettingViewController.swift in Sources */,
 				1A665ED32188426600B7CBA2 /* BaseUIStackView.swift in Sources */,
 				1A665EE02188426600B7CBA2 /* BaseUISegmentedControl.swift in Sources */,
+				597429152191C06100F90417 /* UpcommingExperienceDetailViewController.swift in Sources */,
 				1D8E52C0218EDFD600F49674 /* SideMenuController.swift in Sources */,
 				1A665F5B21884BD900B7CBA2 /* PhoneTableViewCell.swift in Sources */,
 				1A665F3721884A5A00B7CBA2 /* LoginViewController.swift in Sources */,
@@ -1720,7 +1732,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZPBKZ7R98;
 				INFOPLIST_FILE = Zaha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1738,7 +1752,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZPBKZ7R98;
 				INFOPLIST_FILE = Zaha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -10,6 +10,15 @@ import UIKit
 
 class HomeTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var experienceBackgroundImageView: UIImageView!
+    @IBOutlet weak var experienceVideoIconImageView: UIImageView!
+    @IBOutlet weak var experienceTitleLabel: UILabel!
+    @IBOutlet weak var experiencePriceLabel: UILabel!
+    @IBOutlet weak var experienceDateTimeLabel: UILabel!
+    @IBOutlet weak var experienceUserLabel: UILabel!
+    @IBOutlet weak var experienceCategoryLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -233,7 +233,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lets get started!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oa8-Gy-JuH" customClass="BaseUILabel" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="20" width="163.33333333333334" height="26.333333333333329"/>
+                                                <rect key="frame" x="20" y="20" width="163.66666666666666" height="26.666666666666671"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                 <color key="textColor" red="0.77647058820000003" green="0.61960784310000006" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -244,7 +244,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dcz-EC-gsT" customClass="BaseUITextField" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="96.333333333333343" width="374" height="45"/>
+                                                <rect key="frame" x="20" y="96.666666666666657" width="374" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="055-Qc-KTP">
                                                         <userDefinedRuntimeAttributes>
@@ -276,7 +276,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W7D-k2-P6D" customClass="BaseUITextField" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="161.33333333333334" width="374" height="45"/>
+                                                <rect key="frame" x="20" y="161.66666666666666" width="374" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="Wux-H8-lsh">
                                                         <userDefinedRuntimeAttributes>
@@ -308,7 +308,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gah-Rz-e7K" customClass="BaseUIButton" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="249" y="218.33333333333331" width="145" height="34"/>
+                                                <rect key="frame" x="249" y="218.66666666666669" width="145" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="34" id="HP6-Ui-une"/>
                                                 </constraints>
@@ -325,7 +325,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btc-79-cZ9" customClass="BaseUIButton" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="269" width="131" height="47"/>
+                                                <rect key="frame" x="20" y="269.33333333333331" width="131" height="47"/>
                                                 <state key="normal" title="LOGIN" backgroundImage="login_login_btn">
                                                     <color key="titleColor" red="0.77647058820000003" green="0.61960784310000006" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -339,15 +339,15 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YiM-Lu-KHX">
-                                                <rect key="frame" x="20" y="356" width="212" height="50"/>
+                                                <rect key="frame" x="20" y="356.33333333333331" width="212" height="50"/>
                                                 <state key="normal" image="login_facebookBtn"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="org-67-71f">
-                                                <rect key="frame" x="20" y="414" width="212" height="50"/>
+                                                <rect key="frame" x="20" y="414.33333333333331" width="212" height="50"/>
                                                 <state key="normal" image="login_googleBtn"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWX-x0-Xo2" customClass="BaseUIButton" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="540" width="97" height="22"/>
+                                                <rect key="frame" x="20" y="540.33333333333337" width="97" height="22"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="SIGNUP   " image="login_signupArrow">
                                                     <color key="titleColor" red="0.77647058820000003" green="0.61960784310000006" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -365,7 +365,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haven't signedup yet!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32h-ua-fEP" customClass="BaseUILabel" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="499" width="178" height="21"/>
+                                                <rect key="frame" x="20" y="499.33333333333337" width="178" height="21"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                                 <userDefinedRuntimeAttributes>
@@ -498,7 +498,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forget Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ei-mP-tKj" customClass="BaseUILabel" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="20" width="172.66666666666666" height="26.333333333333329"/>
+                                                <rect key="frame" x="20" y="20" width="173" height="26.666666666666671"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                 <color key="textColor" red="0.77647058820000003" green="0.61960784310000006" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -509,7 +509,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ait-To-cbx" customClass="BaseUITextField" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="96.333333333333343" width="374" height="45"/>
+                                                <rect key="frame" x="20" y="96.666666666666657" width="374" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="a06-oJ-bQW">
                                                         <userDefinedRuntimeAttributes>
@@ -541,7 +541,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mi9-PV-odv" customClass="BaseUIButton" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="161.33333333333334" width="131" height="47"/>
+                                                <rect key="frame" x="20" y="161.66666666666666" width="131" height="47"/>
                                                 <state key="normal" title="SUBMIT" backgroundImage="login_login_btn">
                                                     <color key="titleColor" red="0.77647058820000003" green="0.61960784310000006" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -632,7 +632,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4r-rO-xE5" customClass="BaseUILabel" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="20" width="180" height="26.333333333333329"/>
+                                                <rect key="frame" x="20" y="20" width="180" height="26.666666666666671"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                 <color key="textColor" red="0.77647058820000003" green="0.61960784310000006" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -643,7 +643,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kaX-Ar-OYC" customClass="BaseUITextField" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="96.333333333333343" width="374" height="45"/>
+                                                <rect key="frame" x="20" y="96.666666666666657" width="374" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="ruJ-lr-NDK">
                                                         <userDefinedRuntimeAttributes>
@@ -675,7 +675,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="501-Y4-u7I" customClass="BaseUITextField" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="161.33333333333334" width="374" height="45"/>
+                                                <rect key="frame" x="20" y="161.66666666666666" width="374" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="cAa-AY-cU8">
                                                         <userDefinedRuntimeAttributes>
@@ -707,7 +707,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oep-0I-Myz" customClass="BaseUITextField" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="226.33333333333331" width="374" height="45"/>
+                                                <rect key="frame" x="20" y="226.66666666666669" width="374" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="zy3-y1-5BZ">
                                                         <userDefinedRuntimeAttributes>
@@ -739,7 +739,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F3S-wQ-RMP" customClass="BaseUITextField" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="291.33333333333331" width="374" height="45"/>
+                                                <rect key="frame" x="20" y="291.66666666666669" width="374" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="07B-aQ-enn">
                                                         <userDefinedRuntimeAttributes>
@@ -771,7 +771,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Gd-gf-AHY" customClass="BaseUITextField" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="356.33333333333331" width="374" height="45"/>
+                                                <rect key="frame" x="20" y="356.66666666666669" width="374" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="mNF-PN-6ST">
                                                         <userDefinedRuntimeAttributes>
@@ -803,7 +803,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezy-ii-7oR" customClass="BaseUIButton" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="486.33333333333337" width="131" height="47"/>
+                                                <rect key="frame" x="20" y="486.66666666666663" width="131" height="47"/>
                                                 <state key="normal" title="SIGNUP" backgroundImage="login_login_btn">
                                                     <color key="titleColor" red="0.77647058820000003" green="0.61960784310000006" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -814,7 +814,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Upload Photo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CoX-4J-eAL" customClass="BaseUITextField" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="421.33333333333337" width="374" height="45"/>
+                                                <rect key="frame" x="20" y="421.66666666666663" width="374" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="WNK-QZ-lO5">
                                                         <userDefinedRuntimeAttributes>
@@ -846,7 +846,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Y3-5o-edA" customClass="BaseUIButton" customModule="Zaha" customModuleProvider="target">
-                                                <rect key="frame" x="292" y="429" width="97" height="30"/>
+                                                <rect key="frame" x="292" y="429.33333333333337" width="97" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="ZGT-cC-GUw">
                                                         <userDefinedRuntimeAttributes>
@@ -1004,16 +1004,16 @@
     </scenes>
     <resources>
         <image name="login_background" width="375" height="667"/>
-        <image name="login_facebookBtn" width="212" height="50"/>
-        <image name="login_googleBtn" width="212" height="50"/>
-        <image name="login_login_btn" width="131" height="47"/>
+        <image name="login_facebookBtn" width="212.33332824707031" height="50"/>
+        <image name="login_googleBtn" width="212.33332824707031" height="50"/>
+        <image name="login_login_btn" width="131" height="47.666667938232422"/>
         <image name="login_signupArrow" width="17" height="15"/>
         <image name="login_userIcon" width="15" height="15"/>
         <image name="signup_emailIcon" width="17" height="12"/>
-        <image name="singup_lockIcon" width="15" height="19"/>
-        <image name="singup_uploadIcon" width="19" height="15"/>
+        <image name="singup_lockIcon" width="15.666666984558105" height="19"/>
+        <image name="singup_uploadIcon" width="19.666666030883789" height="15.666666984558105"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="N9N-vr-VgL"/>
+        <segue reference="bsy-0U-pKk"/>
     </inferredMetricsTieBreakers>
 </document>

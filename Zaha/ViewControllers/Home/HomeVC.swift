@@ -7,10 +7,16 @@
 //
 
 import UIKit
-import GoogleSignIn
 
-class HomeVC: BaseViewController,GIDSignInUIDelegate, GIDSignInDelegate, StoryBoardHandler {
+enum ExperienceType: Int {
+    case ExperienceTypeUpcoming = 0
+    case ExperienceTypeStories = 1
+}
 
+class HomeVC: BaseViewController, StoryBoardHandler {
+    
+    var experienceType = ExperienceType.ExperienceTypeUpcoming
+    
     static var myStoryBoard: (forIphone: String, forIpad: String?) = (Storyboards.home.rawValue , nil)
     
     @IBOutlet weak var homeTblView: UITableView!
@@ -38,53 +44,21 @@ class HomeVC: BaseViewController,GIDSignInUIDelegate, GIDSignInDelegate, StoryBo
     
     //home_menuIcon
     
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-    
-    @IBAction func googleSignInButtonClicked(_ sender: Any) {
-        GIDSignIn.sharedInstance().delegate=self
-        GIDSignIn.sharedInstance().uiDelegate=self
-        GIDSignIn.sharedInstance().signIn()
-    }
-    
-    
-    func sign(inWillDispatch signIn: GIDSignIn!, error: Error!) {
-    }
-    
-    func sign(_ signIn: GIDSignIn!,
-              present viewController: UIViewController!) {
-        self.present(viewController, animated: true, completion: nil)
-    }
-    
-    func sign(_ signIn: GIDSignIn!,
-              dismiss viewController: UIViewController!) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
-    public func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
-        
-        if error != nil{
-            print(error ?? "google error")
-            return
-        }
-        
-            // Perform any operations on signed in user here.
-            let userId = user.userID                  // For client-side use only!
-            let idToken = user.authentication.idToken // Safe to send to the server
-            let fullName = user.profile.name
-            let givenName = user.profile.givenName
-            let familyName = user.profile.familyName
-            let email = user.profile.email
-            // ...
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        // Get the new view controller using segue.destination.
+//        // Pass the selected object to the new view controller.
+//        if segue.identifier == "UpcommingExperienceSegue"
+//        {
+//
+//        }else{
+//
+//        }
+//    }
+ 
 }
 
 extension HomeVC : UITableViewDelegate,UITableViewDataSource {
@@ -94,6 +68,11 @@ extension HomeVC : UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "HomeCell", for: indexPath) as! HomeTableViewCell
+        if (indexPath.row % 2 == 0) {
+            cell.experienceVideoIconImageView.isHidden = true
+        }else{
+            cell.experienceVideoIconImageView.isHidden = false
+        }
         return cell
         
     }
@@ -102,5 +81,22 @@ extension HomeVC : UITableViewDelegate,UITableViewDataSource {
         return 262
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+          if (indexPath.row % 2 == 0) {
+            experienceType = ExperienceType.ExperienceTypeUpcoming
+          }else{
+            experienceType = ExperienceType.ExperienceTypeUpcoming
+        }
+        
+        if experienceType == ExperienceType.ExperienceTypeUpcoming{
+            let storyboard = UIStoryboard(name: "UpcommingExperienceModule", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "UpcommingExperienceDetailViewController") as UIViewController
+            self.navigationController?.pushViewController(vc, animated: true)
+
+        }else{
+            
+        }
+        
+       
+    }
 }
