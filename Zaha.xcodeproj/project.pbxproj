@@ -188,6 +188,7 @@
 		1D8E5312218F2CF800F49674 /* MenuSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8E5311218F2CF800F49674 /* MenuSelectionController.swift */; };
 		1D8E5314218F40E300F49674 /* Futura Std Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8E5313218F40E300F49674 /* Futura Std Bold.otf */; };
 		590E6D5F219303AD00F1181C /* PopupsModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590E6D5E219303AD00F1181C /* PopupsModule.storyboard */; };
+		590E6D612193428D00F1181C /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E6D602193428D00F1181C /* CosmosDistrib.swift */; };
 		591F02982186E7C0000CCE12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591F02972186E7C0000CCE12 /* AppDelegate.swift */; };
 		591F029D2186E7C0000CCE12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591F029B2186E7C0000CCE12 /* Main.storyboard */; };
 		591F029F2186E7C4000CCE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591F029E2186E7C4000CCE12 /* Assets.xcassets */; };
@@ -411,6 +412,7 @@
 		2A4C547E3241A78902FBFBD0 /* Pods-ZahaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZahaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZahaTests/Pods-ZahaTests.release.xcconfig"; sourceTree = "<group>"; };
 		362EC65D50D6BCD6C8239C60 /* Pods-Zaha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zaha.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zaha/Pods-Zaha.release.xcconfig"; sourceTree = "<group>"; };
 		590E6D5E219303AD00F1181C /* PopupsModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopupsModule.storyboard; sourceTree = "<group>"; };
+		590E6D602193428D00F1181C /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
 		591F02942186E7C0000CCE12 /* Zaha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zaha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		591F02972186E7C0000CCE12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		591F029C2186E7C0000CCE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -660,6 +662,7 @@
 			children = (
 				1A665EA82188426500B7CBA2 /* BaseLayoutConstraint.swift */,
 				1A665EA92188426500B7CBA2 /* Utility.swift */,
+				590E6D602193428D00F1181C /* CosmosDistrib.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1484,6 +1487,7 @@
 				1A665ED02188426600B7CBA2 /* BaseUIStepper.swift in Sources */,
 				1A665F01218847F200B7CBA2 /* SVResult.swift in Sources */,
 				1A665ED52188426600B7CBA2 /* BaseUISlider.swift in Sources */,
+				590E6D612193428D00F1181C /* CosmosDistrib.swift in Sources */,
 				1A665F04218847F200B7CBA2 /* Result-Signup.swift in Sources */,
 				1A665EB52188426600B7CBA2 /* ColorManager.swift in Sources */,
 				1A665F2A21884A4E00B7CBA2 /* ChangePasswordViewController.swift in Sources */,
