@@ -187,6 +187,7 @@
 		1D8E5310218F0B0F00F49674 /* Futura Std Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8E530E218F0B0F00F49674 /* Futura Std Medium.otf */; };
 		1D8E5312218F2CF800F49674 /* MenuSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8E5311218F2CF800F49674 /* MenuSelectionController.swift */; };
 		1D8E5314218F40E300F49674 /* Futura Std Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8E5313218F40E300F49674 /* Futura Std Bold.otf */; };
+		590E6D5F219303AD00F1181C /* PopupsModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590E6D5E219303AD00F1181C /* PopupsModule.storyboard */; };
 		591F02982186E7C0000CCE12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591F02972186E7C0000CCE12 /* AppDelegate.swift */; };
 		591F029D2186E7C0000CCE12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591F029B2186E7C0000CCE12 /* Main.storyboard */; };
 		591F029F2186E7C4000CCE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591F029E2186E7C4000CCE12 /* Assets.xcassets */; };
@@ -409,6 +410,7 @@
 		232EE712D892DDD2B6726D63 /* Pods-ZahaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZahaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZahaUITests/Pods-ZahaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2A4C547E3241A78902FBFBD0 /* Pods-ZahaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZahaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZahaTests/Pods-ZahaTests.release.xcconfig"; sourceTree = "<group>"; };
 		362EC65D50D6BCD6C8239C60 /* Pods-Zaha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zaha.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zaha/Pods-Zaha.release.xcconfig"; sourceTree = "<group>"; };
+		590E6D5E219303AD00F1181C /* PopupsModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopupsModule.storyboard; sourceTree = "<group>"; };
 		591F02942186E7C0000CCE12 /* Zaha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zaha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		591F02972186E7C0000CCE12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		591F029C2186E7C0000CCE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -887,6 +889,7 @@
 				D08453A9218E130F001E57B0 /* SettingModule.storyboard */,
 				D08453AB218E1318001E57B0 /* AboutModule.storyboard */,
 				1D8E52BC218EDF2E00F49674 /* SideMenu.storyboard */,
+				590E6D5E219303AD00F1181C /* PopupsModule.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -1258,6 +1261,7 @@
 				1D8E5306218EE6D600F49674 /* Roboto-Thin.ttf in Resources */,
 				1D8E5307218EE6D600F49674 /* Roboto-Black.ttf in Resources */,
 				1D8E52F7218EE6D600F49674 /* Roboto-MediumItalic.ttf in Resources */,
+				590E6D5F219303AD00F1181C /* PopupsModule.storyboard in Resources */,
 				1D8E52F8218EE6D600F49674 /* Roboto-BoldCondensed.ttf in Resources */,
 				591F029D2186E7C0000CCE12 /* Main.storyboard in Resources */,
 				1D8E530F218F0B0F00F49674 /* Futura Std Book.otf in Resources */,
