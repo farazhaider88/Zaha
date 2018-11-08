@@ -189,6 +189,13 @@
 		1D8E5314218F40E300F49674 /* Futura Std Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8E5313218F40E300F49674 /* Futura Std Bold.otf */; };
 		590E6D5F219303AD00F1181C /* PopupsModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590E6D5E219303AD00F1181C /* PopupsModule.storyboard */; };
 		590E6D612193428D00F1181C /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E6D602193428D00F1181C /* CosmosDistrib.swift */; };
+		59101A672194615000B9C9B1 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59101A662194615000B9C9B1 /* PopupViewController.swift */; };
+		59101A6D219468C300B9C9B1 /* UpcomingExpDetailImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59101A6B219468C300B9C9B1 /* UpcomingExpDetailImageTableViewCell.swift */; };
+		59101A6E219468C300B9C9B1 /* UpcomingExpDetailImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59101A6C219468C300B9C9B1 /* UpcomingExpDetailImageTableViewCell.xib */; };
+		59101A712194693900B9C9B1 /* UpcomingExpDetailInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59101A6F2194693900B9C9B1 /* UpcomingExpDetailInfoTableViewCell.swift */; };
+		59101A722194693900B9C9B1 /* UpcomingExpDetailInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59101A702194693900B9C9B1 /* UpcomingExpDetailInfoTableViewCell.xib */; };
+		59101A75219469A800B9C9B1 /* UpcomingExpDetailDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59101A73219469A800B9C9B1 /* UpcomingExpDetailDescriptionTableViewCell.swift */; };
+		59101A76219469A800B9C9B1 /* UpcomingExpDetailDescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59101A74219469A800B9C9B1 /* UpcomingExpDetailDescriptionTableViewCell.xib */; };
 		591F02982186E7C0000CCE12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591F02972186E7C0000CCE12 /* AppDelegate.swift */; };
 		591F029D2186E7C0000CCE12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591F029B2186E7C0000CCE12 /* Main.storyboard */; };
 		591F029F2186E7C4000CCE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591F029E2186E7C4000CCE12 /* Assets.xcassets */; };
@@ -413,6 +420,13 @@
 		362EC65D50D6BCD6C8239C60 /* Pods-Zaha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zaha.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zaha/Pods-Zaha.release.xcconfig"; sourceTree = "<group>"; };
 		590E6D5E219303AD00F1181C /* PopupsModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopupsModule.storyboard; sourceTree = "<group>"; };
 		590E6D602193428D00F1181C /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
+		59101A662194615000B9C9B1 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		59101A6B219468C300B9C9B1 /* UpcomingExpDetailImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingExpDetailImageTableViewCell.swift; sourceTree = "<group>"; };
+		59101A6C219468C300B9C9B1 /* UpcomingExpDetailImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingExpDetailImageTableViewCell.xib; sourceTree = "<group>"; };
+		59101A6F2194693900B9C9B1 /* UpcomingExpDetailInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingExpDetailInfoTableViewCell.swift; sourceTree = "<group>"; };
+		59101A702194693900B9C9B1 /* UpcomingExpDetailInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingExpDetailInfoTableViewCell.xib; sourceTree = "<group>"; };
+		59101A73219469A800B9C9B1 /* UpcomingExpDetailDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingExpDetailDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		59101A74219469A800B9C9B1 /* UpcomingExpDetailDescriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingExpDetailDescriptionTableViewCell.xib; sourceTree = "<group>"; };
 		591F02942186E7C0000CCE12 /* Zaha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zaha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		591F02972186E7C0000CCE12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		591F029C2186E7C0000CCE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -731,6 +745,7 @@
 				1A665F1F21884A3D00B7CBA2 /* SettingsSection  */,
 				597429132191BFC900F90417 /* UpcommingExperience */,
 				1A665F1921884A1600B7CBA2 /* ViewController.swift */,
+				59101A662194615000B9C9B1 /* PopupViewController.swift */,
 				1A665F1A21884A1600B7CBA2 /* BaseViewController.swift */,
 				1A665F1B21884A1600B7CBA2 /* SplashViewController.swift */,
 				1A665F9121884F0500B7CBA2 /* HomeViewController.swift */,
@@ -794,6 +809,7 @@
 				1A665F4F21884BD900B7CBA2 /* PhoneCell */,
 				1A665F4621884BD800B7CBA2 /* SettingsCell */,
 				1A665F4C21884BD900B7CBA2 /* TextFieldCell */,
+				59101A682194684300B9C9B1 /* UpcomingExpDetailTableCell */,
 				1A665F4421884BBB00B7CBA2 /* Cells.swift */,
 			);
 			path = Cells;
@@ -1011,6 +1027,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		59101A682194684300B9C9B1 /* UpcomingExpDetailTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				59101A6B219468C300B9C9B1 /* UpcomingExpDetailImageTableViewCell.swift */,
+				59101A6C219468C300B9C9B1 /* UpcomingExpDetailImageTableViewCell.xib */,
+				59101A6F2194693900B9C9B1 /* UpcomingExpDetailInfoTableViewCell.swift */,
+				59101A702194693900B9C9B1 /* UpcomingExpDetailInfoTableViewCell.xib */,
+				59101A73219469A800B9C9B1 /* UpcomingExpDetailDescriptionTableViewCell.swift */,
+				59101A74219469A800B9C9B1 /* UpcomingExpDetailDescriptionTableViewCell.xib */,
+			);
+			path = UpcomingExpDetailTableCell;
+			sourceTree = "<group>";
+		};
 		591F028B2186E7BF000CCE12 = {
 			isa = PBXGroup;
 			children = (
@@ -1215,6 +1244,7 @@
 				1D8E52FC218EE6D600F49674 /* Roboto-Condensed.ttf in Resources */,
 				1A665F5721884BD900B7CBA2 /* AcceptCheckboxTableViewCell.xib in Resources */,
 				1D8E52EE218EE6D600F49674 /* Poppins-Regular.ttf in Resources */,
+				59101A6E219468C300B9C9B1 /* UpcomingExpDetailImageTableViewCell.xib in Resources */,
 				1D8E52EC218EE6D600F49674 /* Poppins-Medium.ttf in Resources */,
 				D084539E218E12B7001E57B0 /* StoriesModule.storyboard in Resources */,
 				1D8E52ED218EE6D600F49674 /* Poppins.ttf in Resources */,
@@ -1224,6 +1254,7 @@
 				1A665F5D21884BD900B7CBA2 /* ButtonTableViewCell.xib in Resources */,
 				1A665EAD2188426600B7CBA2 /* FontManager.plist in Resources */,
 				1D8E52FE218EE6D600F49674 /* RobotoSlab-Light.ttf in Resources */,
+				59101A722194693900B9C9B1 /* UpcomingExpDetailInfoTableViewCell.xib in Resources */,
 				1D8E52F9218EE6D600F49674 /* RobotoCondensed-Italic.ttf in Resources */,
 				1D8E52F0218EE6D600F49674 /* Lato-Medium.ttf in Resources */,
 				1A665F8A21884EC700B7CBA2 /* banner_logo@2x.png in Resources */,
@@ -1232,6 +1263,7 @@
 				1D8E5310218F0B0F00F49674 /* Futura Std Medium.otf in Resources */,
 				1A665F9021884EC700B7CBA2 /* bg-home@2x.png in Resources */,
 				1D8E52F5218EE6D600F49674 /* Roboto-Regular.ttf in Resources */,
+				59101A76219469A800B9C9B1 /* UpcomingExpDetailDescriptionTableViewCell.xib in Resources */,
 				1D8E52EF218EE6D600F49674 /* Poppins-SemiBold.ttf in Resources */,
 				1D8E52FD218EE6D600F49674 /* RobotoSlab-Bold.ttf in Resources */,
 				1A665FA6218861D500B7CBA2 /* SplashModule.storyboard in Resources */,
@@ -1444,6 +1476,7 @@
 				1A665F3821884A5A00B7CBA2 /* RegisterViewController+Extension.swift in Sources */,
 				1A665F4021884AB400B7CBA2 /* ResetPasswordManager.swift in Sources */,
 				1A665EEC2188426600B7CBA2 /* SideImageDesignable.swift in Sources */,
+				59101A672194615000B9C9B1 /* PopupViewController.swift in Sources */,
 				1A665EC12188426600B7CBA2 /* UIViewController+Extensions.swift in Sources */,
 				1A665EAA2188426600B7CBA2 /* FormValidator.swift in Sources */,
 				1A665EDD2188426600B7CBA2 /* BaseUITableView.swift in Sources */,
@@ -1497,6 +1530,8 @@
 				1A665F2C21884A4E00B7CBA2 /* EnterCodeViewController.swift in Sources */,
 				1A665F9B2188586700B7CBA2 /* UserManager.swift in Sources */,
 				1A665F9F21885F0800B7CBA2 /* AlertMessages.swift in Sources */,
+				59101A712194693900B9C9B1 /* UpcomingExpDetailInfoTableViewCell.swift in Sources */,
+				59101A6D219468C300B9C9B1 /* UpcomingExpDetailImageTableViewCell.swift in Sources */,
 				1A665EC32188426600B7CBA2 /* UIView+Extensions.swift in Sources */,
 				1A665F9621884F2B00B7CBA2 /* ImageTableViewCell.swift in Sources */,
 				1A665F06218847F200B7CBA2 /* SVUser.swift in Sources */,
@@ -1504,6 +1539,7 @@
 				1A665EBE2188426600B7CBA2 /* AppStoryboardAndNavigation.swift in Sources */,
 				1A665EC92188426600B7CBA2 /* UtilityExtensions.swift in Sources */,
 				1A665EBB2188426600B7CBA2 /* BorderType.swift in Sources */,
+				59101A75219469A800B9C9B1 /* UpcomingExpDetailDescriptionTableViewCell.swift in Sources */,
 				1A665F3521884A5A00B7CBA2 /* SignUpViewController.swift in Sources */,
 				1A665F1D21884A1600B7CBA2 /* BaseViewController.swift in Sources */,
 				1A665EB92188426600B7CBA2 /* BorderSide.swift in Sources */,

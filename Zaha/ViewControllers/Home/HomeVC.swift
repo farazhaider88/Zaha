@@ -85,7 +85,7 @@ extension HomeVC : UITableViewDelegate,UITableViewDataSource {
           if (indexPath.row % 2 == 0) {
             experienceType = ExperienceType.ExperienceTypeUpcoming
           }else{
-            experienceType = ExperienceType.ExperienceTypeUpcoming
+            experienceType = ExperienceType.ExperienceTypeStories
         }
         
         if experienceType == ExperienceType.ExperienceTypeUpcoming{
@@ -95,6 +95,12 @@ extension HomeVC : UITableViewDelegate,UITableViewDataSource {
 
         }else{
             
+//ForShowingPopup
+            let storyboard = UIStoryboard(name: "PopupsModule", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "PopupViewController") as UIViewController
+            vc.modalPresentationStyle = .overCurrentContext
+            vc.modalTransitionStyle = .crossDissolve
+            present(vc, animated: true, completion: nil)
         }
         
        

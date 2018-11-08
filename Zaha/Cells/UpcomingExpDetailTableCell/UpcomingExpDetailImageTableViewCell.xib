@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UpcomingExpDetailImageTableViewCell" rowHeight="250" id="BOL-SB-cKp" customClass="UpcomingExpDetailImageTableViewCell" customModule="Zaha" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BOL-SB-cKp" id="OE1-VL-qr4">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="249.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DemoImage" translatesAutoresizingMaskIntoConstraints="NO" id="Q22-uJ-pRD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="249.5"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y8q-1h-hKm">
+                        <rect key="frame" x="0.0" y="178.5" width="375" height="71"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="upcomingExp_brownBox" translatesAutoresizingMaskIntoConstraints="NO" id="tEy-G9-ZnY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="391"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arab Culture Dinner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vdx-Mp-ouB">
+                                <rect key="frame" x="30" y="22" width="315" height="27"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                <color key="textColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Vdx-Mp-ouB" firstAttribute="centerY" secondItem="Y8q-1h-hKm" secondAttribute="centerY" id="BI1-AP-9Sr"/>
+                            <constraint firstAttribute="trailing" secondItem="tEy-G9-ZnY" secondAttribute="trailing" id="TRd-Vd-fZK"/>
+                            <constraint firstItem="Vdx-Mp-ouB" firstAttribute="leading" secondItem="Y8q-1h-hKm" secondAttribute="leading" constant="30" id="W6N-Nx-lA6"/>
+                            <constraint firstAttribute="height" constant="71" id="aUl-jK-okw"/>
+                            <constraint firstAttribute="trailing" secondItem="Vdx-Mp-ouB" secondAttribute="trailing" constant="30" id="cZq-0t-Sex"/>
+                            <constraint firstItem="tEy-G9-ZnY" firstAttribute="top" secondItem="Y8q-1h-hKm" secondAttribute="top" id="uQH-VK-fP1"/>
+                            <constraint firstItem="tEy-G9-ZnY" firstAttribute="leading" secondItem="Y8q-1h-hKm" secondAttribute="leading" id="ydP-Ih-q2g"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Q22-uJ-pRD" secondAttribute="bottom" id="8AP-5F-52l"/>
+                    <constraint firstItem="Q22-uJ-pRD" firstAttribute="top" secondItem="OE1-VL-qr4" secondAttribute="top" id="EPU-T3-Xqu"/>
+                    <constraint firstItem="Q22-uJ-pRD" firstAttribute="leading" secondItem="OE1-VL-qr4" secondAttribute="leading" id="FVb-AB-Vzh"/>
+                    <constraint firstItem="Y8q-1h-hKm" firstAttribute="leading" secondItem="OE1-VL-qr4" secondAttribute="leading" id="HOO-8Q-P9g"/>
+                    <constraint firstAttribute="bottom" secondItem="Y8q-1h-hKm" secondAttribute="bottom" id="Ryp-l5-Zkc"/>
+                    <constraint firstAttribute="trailing" secondItem="Y8q-1h-hKm" secondAttribute="trailing" id="dmV-RK-a8o"/>
+                    <constraint firstAttribute="trailing" secondItem="Q22-uJ-pRD" secondAttribute="trailing" id="vkT-Z0-HGa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="308" y="236"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="DemoImage" width="375" height="220"/>
+        <image name="upcomingExp_brownBox" width="375" height="391"/>
+    </resources>
+</document>

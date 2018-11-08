@@ -15,6 +15,10 @@ class UpcommingExperienceDetailViewController: BaseViewController, StoryBoardHan
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+           upcomingExpTableView.register(UINib(nibName: "UpcomingExpDetailImageTableViewCell", bundle: nil), forCellReuseIdentifier: "UpcomingExpDetailImageTableViewCell")
+           upcomingExpTableView.register(UINib(nibName: "UpcomingExpDetailInfoTableViewCell", bundle: nil), forCellReuseIdentifier: "UpcomingExpDetailInfoTableViewCell")
+           upcomingExpTableView.register(UINib(nibName: "UpcomingExpDetailDescriptionTableViewCell", bundle: nil), forCellReuseIdentifier: "UpcomingExpDetailDescriptionTableViewCell")
 
         // Do any additional setup after loading the view.
     }
@@ -41,15 +45,15 @@ extension UpcommingExperienceDetailViewController:UITableViewDelegate,UITableVie
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.row {
         case 0:
-            let cell = tableView.dequeueReusableCell(withIdentifier: "UpcomingExpImageCell", for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: "UpcomingExpDetailImageTableViewCell", for: indexPath) as! UpcomingExpDetailImageTableViewCell
             return cell
             
         case 1:
-            let cell = tableView.dequeueReusableCell(withIdentifier: "UpcomingExpDetailCell", for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: "UpcomingExpDetailInfoTableViewCell", for: indexPath) as! UpcomingExpDetailInfoTableViewCell
             return cell
             
         case 2:
-            let cell = tableView.dequeueReusableCell(withIdentifier: "UpcomingExpDetailTextCell", for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: "UpcomingExpDetailDescriptionTableViewCell", for: indexPath) as! UpcomingExpDetailDescriptionTableViewCell
             return cell
         default:
             let cell = tableView.dequeueReusableCell(withIdentifier: "UpcomingExpImageCell", for: indexPath)
